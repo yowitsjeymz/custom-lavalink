@@ -5,6 +5,7 @@ server:
 plugins:
   youtube:
     enabled: true
+    version: "1.18.0"
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
