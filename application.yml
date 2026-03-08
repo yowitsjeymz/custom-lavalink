@@ -1,11 +1,22 @@
 server:
   port: 2333
+  address: 0.0.0.0
+
+plugins:
+  youtube:
+    enabled: true
+    allowSearch: true
+    allowDirectVideoIds: true
+    allowDirectPlaylistIds: true
 
 lavalink:
+  plugins:
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.0"
+      snapshot: false
   server:
     password: "gkhmusic"
     sources:
-      youtube: true
+      youtube: false
       soundcloud: true
       bandcamp: true
       twitch: false
@@ -23,13 +34,3 @@ lavalink:
       distortion: true
       channelMix: true
       lowPass: true
-    youtubeSearchEnabled: true
-    soundcloudSearchEnabled: true
-
-plugins:
-  youtube:
-    enabled: true
-
-plugins:
-  youtube:
-    enabled: true
