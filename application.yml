@@ -1,0 +1,31 @@
+server:
+  port: 2333
+
+lavalink:
+  server:
+    password: "gkhmusic"
+    sources:
+      youtube: true
+      soundcloud: true
+      bandcamp: true
+      twitch: false
+      vimeo: true
+      http: true
+      local: false
+    filters:
+      volume: true
+      equalizer: true
+      karaoke: true
+      timescale: true
+      tremolo: true
+      vibrato: true
+      rotation: true
+      distortion: true
+      channelMix: true
+      lowPass: true
+    youtubeSearchEnabled: true
+    soundcloudSearchEnabled: true
+
+plugins:
+  youtube:
+    enabled: true
