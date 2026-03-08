@@ -29,3 +29,7 @@ lavalink:
 plugins:
   youtube:
     enabled: true
+
+plugins:
+  youtube:
+    enabled: true
