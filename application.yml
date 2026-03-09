@@ -9,6 +9,8 @@ plugins:
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
+    oauth:
+      enabled: true
     clients:
       - WEB
       - MWEB
