@@ -9,11 +9,12 @@ plugins:
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
-    oauth:
-      enabled: true
     clients:
       - WEB
       - MWEB
+    oauth:
+      enabled: true
+      refreshToken: "1//06YBdt0IZJPsZCgYIARAAGAYSNwF-L9Ire_iXA_8YXrviON32U1leT8rNiGCa13KrdtgKUqm6remqTmEY4Bh57mkVqmHpfQZX9_g"
 
 lavalink:
   plugins:
