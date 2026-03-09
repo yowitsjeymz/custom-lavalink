@@ -10,7 +10,7 @@ plugins:
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
     clients:
-      - TV
+      - TVHTML5
       - WEB
       - MWEB
     oauth:
