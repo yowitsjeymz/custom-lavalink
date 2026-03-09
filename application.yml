@@ -10,6 +10,7 @@ plugins:
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
     clients:
+      - TV
       - WEB
       - MWEB
     oauth:
@@ -30,14 +31,3 @@ lavalink:
       vimeo: true
       http: true
       local: false
-    filters:
-      volume: true
-      equalizer: true
-      karaoke: true
-      timescale: true
-      tremolo: true
-      vibrato: true
-      rotation: true
-      distortion: true
-      channelMix: true
-      lowPass: true
