@@ -12,9 +12,9 @@ plugins:
     oauth:
       enabled: true
     clients:
+      - TV
       - WEB
       - MWEB
-      - TVHTML5_SIMPLY
 
 lavalink:
   plugins:
